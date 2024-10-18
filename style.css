@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#first {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+
+#first > img {
+  width: 100%;
+  height: 431px;
+  background-size: cover;
+}
+
+#first > button {
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: -60px;
+  margin-left: 50%;
+  cursor: pointer;
+  height: 100px;
+  background-color: rgb(228, 221, 221);
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+
+#first > button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#first > div {
+  display: flex;
+  gap: 75px;
+  list-style: none;
+  color: white;
+  margin: auto;
+}
+
+#first > div > li,
+button {
+  cursor: pointer;
+}
+
+#first > div > h2 {
+  font: bold;
+  margin-left: 75px;
+}
+
+#first > div > p {
+  font-size: 35px;
+  margin: auto;
+}
+
+#first > div > li {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+#second {
+  display: flex;
+  gap: 10px;
+  height: 300px;
+  width: 100%;
+  background-color: rgb(252, 249, 245);
+}
+
+#second > div {
+  margin: auto;
+  width: 500px;
+  height: 260px;
+  margin-top: 33px;
+}
+
+#second > div > p {
+  font-size: 25px;
+  color: #433636;
+  font-weight: 500;
+}
+
+#second > div > button {
+  height: 30px;
+  width: 175px;
+  border-radius: 9px;
+  font-size: 13px;
+  border-style: revert;
+}
+#second > div > p,
+button {
+  margin-top: 27px;
+}
+
+#second > div > h1 {
+  font-size: 149px;
+  margin-top: 44px;
+  color: #433636;
+}
+
+#third {
+  display: flex;
+  gap: 25px;
+  margin: auto;
+  height: 538px;
+  width: 100%;
+}
+
+#third > div {
+  margin-top: 30px;
+  width: 454px;
+  height: 475px;
+}
+
+#third > div > img {
+  height: 358px;
+  width: 388px;
+  margin-left: 27px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+#third > div > h3,
+p {
+  margin-left: 27px;
+}
